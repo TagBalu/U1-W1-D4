@@ -4,11 +4,18 @@ body {
   max-width: 400px;
   margin-inline: auto;
   background-image: url(../img/sfondo.png);
-  padding: 20px;
+  padding: 1rem;
+  line-height: 1.4;
 }
+/* HEADER */
 header {
   background-color: #0088aa;
+  background-image: linear-gradient(0deg, rgba(0, 136, 170, 1) 38%, rgba(0, 154, 194, 1) 100%);
   padding: 40px;
+}
+header ul {
+  list-style: none;
+  padding-left: 0;
 }
 header {
   color: white;
@@ -21,6 +28,7 @@ header {
 }
 header a {
   color: white;
+  text-decoration: none;
 }
 .blog {
   padding: 25px;
@@ -28,6 +36,7 @@ header a {
 nav ul li {
   margin-bottom: 0.5rem;
 }
+/* MAIN */
 main {
   background-color: white;
   margin-top: 20px;
@@ -39,26 +48,46 @@ main {
 main h1 {
   font-weight: 600;
   padding-top: 15px;
+  font-size: 30px;
 }
-main ul,
-ol {
+/*ELEMENTI NEL MAIN - ARTICLE*/
+ul {
   padding-left: 25px;
   margin-bottom: 1rem;
   list-style-type: disc;
 }
+ol {
+  padding-left: 25px;
+  margin-bottom: 1rem;
+  list-style-type: decimal;
+}
 main ul ol,
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .Rossi {
   color: grey;
+  margin-block: 1rem;
 }
 main strong {
   color: #aa2072;
 }
+table {
+  border-bottom: solid;
+  border-bottom-color: #3366cc;
+  margin-bottom: 2rem;
+}
 td,
 th {
   padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #3366cc;
+  font-size: 1.3rem;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 .lista1 {
   padding-inline-start: 40px;
@@ -66,6 +95,51 @@ th {
 aside {
   background-color: white;
 }
+code {
+  background-color: grey;
+  border-radius: 6px;
+  display: inline;
+  border: 1px solid grey;
+  padding-block: 0.25rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+/* FORM */
+iframe {
+  border-radius: 20px;
+}
+section {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #e6e0e2;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+button {
+  background-color: #3667ca;
+  color: white;
+  font-size: 1.2rem;
+  border-style: none;
+}
+.email {
+  font-size: 1.2rem;
+  border-style: none;
+  border-bottom: dashed;
+}
+/* ELEMENTI NELL'ASIDE */
+aside h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-block: 1.5rem;
+}
+aside div {
+  background-color: #e4e0e1;
+}
+
+/* FOOTER */
 footer {
   background-color: white;
 }
