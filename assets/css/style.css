@@ -40,11 +40,14 @@ main h1 {
   font-weight: 600;
   padding-top: 15px;
 }
-main ul {
-  padding-left: 20px;
+main ul,
+ol {
+  padding-left: 25px;
   margin-bottom: 1rem;
+  list-style-type: disc;
 }
-main ul li {
+main ul ol,
+li {
   margin-bottom: 0.5rem;
 }
 .Rossi {
